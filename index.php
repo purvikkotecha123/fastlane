@@ -1,7 +1,7 @@
 <?php
 
 // Request a client token
-require_once( '../config.php' );
+require_once( '/config.php' );
 
 $curl = curl_init( 'https://api.sandbox.paypal.com/v1/oauth2/token' );
 curl_setopt( $curl, CURLOPT_RETURNTRANSFER, true );
