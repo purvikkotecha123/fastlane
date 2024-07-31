@@ -1,6 +1,6 @@
 <?php
 
-require_once( '../config.php' );
+require_once( '/config.php' );
 
 // Make sure all our fields are present
 $errors = [];
